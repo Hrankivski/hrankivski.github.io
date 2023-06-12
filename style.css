@@ -1,0 +1,20 @@
+html, body { 
+  margin: 0; 
+}
+body:after {
+  content: 'click to update';
+  font-size: .8em;
+  color: rgba(0, 0, 0, .3);
+  position: fixed;
+  width: 100%;
+  bottom: 1em;
+  text-align: center;
+}
+
+#cloud {
+  overflow: hidden;
+  width: 1px; height: 1px;
+  transform: translate(-100%, -100%);
+  border-radius: 50%;
+  filter: url(#filter);
+}

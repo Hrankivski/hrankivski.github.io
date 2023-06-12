@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Cloud (SVG filter + CSS)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="cloud"></div>
+
+<svg width="0">
+  <filter id="filter">
+    <feTurbulence type="fractalNoise"
+      baseFrequency=".01" numOctaves="10" />
+    <feDisplacementMap
+      in="SourceGraphic" scale="240" />
+  </filter>
+</svg>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
