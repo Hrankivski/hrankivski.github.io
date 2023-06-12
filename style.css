@@ -3,7 +3,7 @@ html, body {
 }
 body:after {
   content: 'click to update';
-  font-size: .8em;
+  font-size: 2em;
   color: rgba(0, 0, 0, .3);
   position: fixed;
   width: 100%;
